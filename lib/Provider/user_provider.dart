@@ -18,9 +18,9 @@ class UserProvider with ChangeNotifier {
     try {
       print(url);
       Map<String, String> apiHeader = {
-        'x-auth-token': '<YOUR TOKEN>',
+        'x-auth-token': 'tq355lY3MJyd8Uj2ySzm',
         'Content-Type': 'application/json',
-        'API-Key': '<YOUR API KEY>'
+        'API-Key': '525-777-777'
       };
       Map<String, String> apiBody = {
         'username': user.username,
@@ -53,9 +53,9 @@ class UserProvider with ChangeNotifier {
     try {
       print(url);
       Map<String, String> apiHeader = {
-        'x-auth-token': '<YOUR TOKEN>',
+        'x-auth-token': 'tq355lY3MJyd8Uj2ySzm',
         'Content-Type': 'application/json',
-        'API-Key': '<YOUR API KEY>'
+        'API-Key': '525-777-777'
       };
       Map<String, String> apiBody = {
         "phone": mobNo,
@@ -88,9 +88,9 @@ class UserProvider with ChangeNotifier {
   //   try {
   //     print(url);
   //     Map<String, String> apiHeader = {
-  //       'x-auth-token': '<YOUR TOKEN>',
+  //       'x-auth-token': 'tq355lY3MJyd8Uj2ySzm',
   //       'Content-Type': 'application/json',
-  //       'API-Key': '<YOUR API KEY>'
+  //       'API-Key': '525-777-777'
   //     };
   //     Map<String, String> apiBody = {
   //       "phone": mobNo,
@@ -125,9 +125,9 @@ class UserProvider with ChangeNotifier {
     print('----url---------$url');
     try {
       Map<String, String> apiHeader = {
-        'x-auth-token': '<YOUR TOKEN>',
+        'x-auth-token': 'tq355lY3MJyd8Uj2ySzm',
         'Content-Type': 'application/json',
-        'API-Key': '<YOUR API KEY>'
+        'API-Key': '525-777-777'
       };
       var request = http.Request('GET', Uri.parse(url));
       request.headers.addAll(apiHeader);
@@ -147,9 +147,9 @@ class UserProvider with ChangeNotifier {
     print(url);
     try {
       Map<String, String> apiHeader = {
-        'x-auth-token': '<YOUR TOKEN>',
+        'x-auth-token': 'tq355lY3MJyd8Uj2ySzm',
         'Content-Type': 'application/json',
-        'API-Key': '<YOUR API KEY>'
+        'API-Key': '525-777-777'
       };
       var request = http.Request('GET', Uri.parse(url));
       request.headers.addAll(apiHeader);
@@ -169,9 +169,9 @@ class UserProvider with ChangeNotifier {
     print(url);
     try {
       Map<String, String> apiHeader = {
-        'x-auth-token': '<YOUR TOKEN>',
+        'x-auth-token': 'tq355lY3MJyd8Uj2ySzm',
         'Content-Type': 'application/json',
-        'API-Key': '<YOUR API KEY>'
+        'API-Key': '525-777-777'
       };
       var request = http.Request('GET', Uri.parse(url));
       request.headers.addAll(apiHeader);
@@ -190,9 +190,9 @@ class UserProvider with ChangeNotifier {
     print(url);
     try {
       Map<String, String> apiHeader = {
-        'x-auth-token': '<YOUR TOKEN>',
+        'x-auth-token': 'tq355lY3MJyd8Uj2ySzm',
         'Content-Type': 'application/json',
-        'API-Key': '<YOUR API KEY>'
+        'API-Key': '525-777-777'
       };
       Map<String, String> apiBody = {
         "school_id": schoolId,
@@ -218,9 +218,9 @@ class UserProvider with ChangeNotifier {
     print(url);
     try {
       Map<String, String> apiHeader = {
-        'x-auth-token': '<YOUR TOKEN>',
+        'x-auth-token': 'tq355lY3MJyd8Uj2ySzm',
         'Content-Type': 'application/json',
-        'API-Key': '<YOUR API KEY>'
+        'API-Key': '525-777-777'
       };
       Map<String, Map<String, String>> apiBody = {
         "args": {
@@ -248,9 +248,9 @@ class UserProvider with ChangeNotifier {
     print(url);
     try {
       Map<String, String> apiHeader = {
-        'x-auth-token': '<YOUR TOKEN>',
+        'x-auth-token': 'tq355lY3MJyd8Uj2ySzm',
         'Content-Type': 'application/json',
-        'API-Key': '<YOUR API KEY>'
+        'API-Key': '525-777-777'
       };
       Map<String, String> apiBody = {
         "school_id": schoolId,
@@ -280,9 +280,9 @@ class UserProvider with ChangeNotifier {
     print(url);
     try {
       Map<String, String> apiHeader = {
-        'x-auth-token': '<YOUR TOKEN>',
+        'x-auth-token': 'tq355lY3MJyd8Uj2ySzm',
         'Content-Type': 'application/json',
-        'API-Key': '<YOUR API KEY>'
+        'API-Key': '525-777-777'
       };
       Map<String, String> apiBody = {"child_id": stdId};
       var request = http.Request('POST', Uri.parse(url));
@@ -303,9 +303,9 @@ class UserProvider with ChangeNotifier {
     print(url);
     try {
       Map<String, String> apiHeader = {
-        'x-auth-token': '<YOUR TOKEN>',
+        'x-auth-token': 'tq355lY3MJyd8Uj2ySzm',
         'Content-Type': 'application/json',
-        'API-Key': '<YOUR API KEY>'
+        'API-Key': '525-777-777'
       };
       Map<String, String> apiBody = {
         // "school_data_url": "https://sqa.docme.online/bm-school/api/app",
@@ -335,9 +335,9 @@ class UserProvider with ChangeNotifier {
     print(url);
     try {
       Map<String, String> apiHeader = {
-        'x-auth-token': '<YOUR TOKEN>',
+        'x-auth-token': 'tq355lY3MJyd8Uj2ySzm',
         'Content-Type': 'application/json',
-        'API-Key': '<YOUR API KEY>'
+        'API-Key': '525-777-777'
       };
       Map<String, Map<String, dynamic>> apiBody = {
         "args": {
@@ -378,9 +378,9 @@ class UserProvider with ChangeNotifier {
     print(url);
     try {
       Map<String, String> apiHeader = {
-        'x-auth-token': '<YOUR TOKEN>',
+        'x-auth-token': 'tq355lY3MJyd8Uj2ySzm',
         'Content-Type': 'application/json',
-        'API-Key': '<YOUR API KEY>'
+        'API-Key': '525-777-777'
       };
       Map<String, String> apiBody = {
         "student_id": stdId,
@@ -407,9 +407,9 @@ class UserProvider with ChangeNotifier {
     print(url);
     try {
       Map<String, String> apiHeader = {
-        'x-auth-token': '<YOUR TOKEN>',
+        'x-auth-token': 'tq355lY3MJyd8Uj2ySzm',
         'Content-Type': 'application/json',
-        'API-Key': '<YOUR API KEY>'
+        'API-Key': '525-777-777'
       };
       var request = http.Request('GET', Uri.parse(url));
       request.headers.addAll(apiHeader);
@@ -427,9 +427,9 @@ class UserProvider with ChangeNotifier {
     print(url);
     try {
       Map<String, String> apiHeader = {
-        'x-auth-token': '<YOUR TOKEN>',
+        'x-auth-token': 'tq355lY3MJyd8Uj2ySzm',
         'Content-Type': 'application/json',
-        'API-Key': '<YOUR API KEY>'
+        'API-Key': '525-777-777'
       };
       Map<String, String> apiBody = {"username": email};
       var request = http.Request('POST', Uri.parse(url));
@@ -451,9 +451,9 @@ class UserProvider with ChangeNotifier {
     print(url);
     try {
       Map<String, String> apiHeader = {
-        'x-auth-token': '<YOUR TOKEN>',
+        'x-auth-token': 'tq355lY3MJyd8Uj2ySzm',
         'Content-Type': 'application/json',
-        'API-Key': '<YOUR API KEY>'
+        'API-Key': '525-777-777'
       };
       Map<String, String> apiBody = {
         "username": usename,
@@ -479,9 +479,9 @@ class UserProvider with ChangeNotifier {
     print(url);
     try {
       Map<String, String> apiHeader = {
-        'x-auth-token': '<YOUR TOKEN>',
+        'x-auth-token': 'tq355lY3MJyd8Uj2ySzm',
         'Content-Type': 'application/json',
-        'API-Key': '<YOUR API KEY>'
+        'API-Key': '525-777-777'
       };
       Map<String, String> apiBody = {"username": email};
       var request = http.Request('POST', Uri.parse(url));
@@ -503,9 +503,9 @@ class UserProvider with ChangeNotifier {
     print(url);
     try {
       Map<String, String> apiHeader = {
-        'x-auth-token': '<YOUR TOKEN>',
+        'x-auth-token': 'tq355lY3MJyd8Uj2ySzm',
         'Content-Type': 'application/json',
-        'API-Key': '<YOUR API KEY>'
+        'API-Key': '525-777-777'
       };
       Map<String, String> apiBody = {
         "action": "sentVoucherEmail",
@@ -534,7 +534,7 @@ class UserProvider with ChangeNotifier {
     print(url);
     try {
       Map<String, String> apiHeader = {
-        'x-auth-token': '<YOUR TOKEN>',
+        'x-auth-token': 'tq355lY3MJyd8Uj2ySzm',
         'Content-Type': 'application/json',
       };
       Map<String, String> apiBody = {
@@ -560,7 +560,7 @@ class UserProvider with ChangeNotifier {
     print('--$url');
     try {
       Map<String, String> apiHeader = {
-        'x-auth-token': '<YOUR TOKEN>',
+        'x-auth-token': 'tq355lY3MJyd8Uj2ySzm',
         'Content-Type': 'application/json',
       };
       Map<String, String> apiBody = {
@@ -592,7 +592,7 @@ class UserProvider with ChangeNotifier {
     print('--$url');
     try {
       Map<String, String> apiHeader = {
-        'x-auth-token': '<YOUR TOKEN>',
+        'x-auth-token': 'tq355lY3MJyd8Uj2ySzm',
         'Content-Type': 'application/json',
       };
       Map<String, String> apiBody = {
