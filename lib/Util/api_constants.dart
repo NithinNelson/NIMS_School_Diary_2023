@@ -4,16 +4,12 @@
 class ApiConstants {
 
   //----------------------------Live URLs----------------------------------//
-  static const baseUrl = 'https://nims3000.educore.guru'; //---Live
-  static const downloadUrl = 'https://nims4000.educore.guru'; //--Live
-  static const getReceiptByEmail = "https://bmark.nimsuae.com/api/App"; //live
-  static const schoolDataUrl = "https://bmark.nimsuae.com/api/App";      //---live
 
   //----------------------------Test URLs----------------------------------//
-  // static const baseUrl = 'https://teamsqa3000.educore.guru';
-  // static const downloadUrl = 'https://teamsqa4000.educore.guru';
-  // static const getReceiptByEmail = "https://sqa.docme.online/bm-school/api/App"; //--
-  // static const schoolDataUrl = "https://sqa.docme.online/bm-school/api/app";
+  static const baseUrl = 'https://teamsqa3000.educore.guru';
+  static const downloadUrl = 'https://teamsqa4000.educore.guru';
+  static const getReceiptByEmail = "https://sqa.docme.online/bm-school/api/App"; //--
+  static const schoolDataUrl = "https://sqa.docme.online/bm-school/api/app";
 
 
   //----------------------------Constants----------------------------------//
