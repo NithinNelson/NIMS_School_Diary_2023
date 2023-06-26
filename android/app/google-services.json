@@ -1,0 +1,78 @@
+{
+  "project_info": {
+    "project_number": "1019000214736",
+    "project_id": "benchmark-301314",
+    "storage_bucket": "benchmark-301314.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019000214736:android:572e29342b4f0d66a6fad5",
+        "android_client_info": {
+          "package_name": "school.benchmark.nimsdiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019000214736-63ehvh3q4qtpbgse54c3k3n816o8v5m9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "school.benchmark.nimsdiary",
+            "certificate_hash": "6426f4541a8ddb8d0ca34a02ba241bbf5978fd1a"
+          }
+        },
+        {
+          "client_id": "1019000214736-76kdkdr1p0eegpncsspsecj1da1av2vr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "school.benchmark.nimsdiary",
+            "certificate_hash": "7d200a71fa760ae9fd99e31574642c75b7943fd3"
+          }
+        },
+        {
+          "client_id": "1019000214736-qem6qhubnld208bn15ljfo5fvrppg1r6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "school.benchmark.nimsdiary",
+            "certificate_hash": "e00cc0e565723fce5ebec23812ed6a1b1a45c1ca"
+          }
+        },
+        {
+          "client_id": "1019000214736-ralucgapfke4fgvgs12bgldnrg9q68u8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "school.benchmark.nimsdiary",
+            "certificate_hash": "dc003c2d860d65fb0980b2d5bba8ca7fe7903810"
+          }
+        },
+        {
+          "client_id": "1019000214736-3h7ds3a2ftbauo1e4khiuqmjsob774no.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQTj8YCNGdaEb4cpTrooZbcdZKFJf77Xg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019000214736-0tvcgssb5q7o6jr6sbo0qaa4i864qkdv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1019000214736-oa4a2dhii7jecrbtf7l0pmb437rt5ln9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "school.benchmark.nimsdiary"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
