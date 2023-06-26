@@ -19,7 +19,7 @@ class UserProvider with ChangeNotifier {
       print(url);
       Map<String, String> apiHeader = {
         'x-auth-token': '<YOUR TOKEN>',
-        'Content-Type': '<YOUR TYPE>',
+        'Content-Type': 'application/json',
         'API-Key': '<YOUR API KEY>'
       };
       Map<String, String> apiBody = {
@@ -54,7 +54,7 @@ class UserProvider with ChangeNotifier {
       print(url);
       Map<String, String> apiHeader = {
         'x-auth-token': '<YOUR TOKEN>',
-        'Content-Type': '<YOUR TYPE>',
+        'Content-Type': 'application/json',
         'API-Key': '<YOUR API KEY>'
       };
       Map<String, String> apiBody = {
@@ -89,7 +89,7 @@ class UserProvider with ChangeNotifier {
   //     print(url);
   //     Map<String, String> apiHeader = {
   //       'x-auth-token': '<YOUR TOKEN>',
-  //       'Content-Type': '<YOUR TYPE>',
+  //       'Content-Type': 'application/json',
   //       'API-Key': '<YOUR API KEY>'
   //     };
   //     Map<String, String> apiBody = {
@@ -126,7 +126,7 @@ class UserProvider with ChangeNotifier {
     try {
       Map<String, String> apiHeader = {
         'x-auth-token': '<YOUR TOKEN>',
-        'Content-Type': '<YOUR TYPE>',
+        'Content-Type': 'application/json',
         'API-Key': '<YOUR API KEY>'
       };
       var request = http.Request('GET', Uri.parse(url));
@@ -148,7 +148,7 @@ class UserProvider with ChangeNotifier {
     try {
       Map<String, String> apiHeader = {
         'x-auth-token': '<YOUR TOKEN>',
-        'Content-Type': '<YOUR TYPE>',
+        'Content-Type': 'application/json',
         'API-Key': '<YOUR API KEY>'
       };
       var request = http.Request('GET', Uri.parse(url));
@@ -170,7 +170,7 @@ class UserProvider with ChangeNotifier {
     try {
       Map<String, String> apiHeader = {
         'x-auth-token': '<YOUR TOKEN>',
-        'Content-Type': '<YOUR TYPE>',
+        'Content-Type': 'application/json',
         'API-Key': '<YOUR API KEY>'
       };
       var request = http.Request('GET', Uri.parse(url));
@@ -191,7 +191,7 @@ class UserProvider with ChangeNotifier {
     try {
       Map<String, String> apiHeader = {
         'x-auth-token': '<YOUR TOKEN>',
-        'Content-Type': '<YOUR TYPE>',
+        'Content-Type': 'application/json',
         'API-Key': '<YOUR API KEY>'
       };
       Map<String, String> apiBody = {
@@ -219,7 +219,7 @@ class UserProvider with ChangeNotifier {
     try {
       Map<String, String> apiHeader = {
         'x-auth-token': '<YOUR TOKEN>',
-        'Content-Type': '<YOUR TYPE>',
+        'Content-Type': 'application/json',
         'API-Key': '<YOUR API KEY>'
       };
       Map<String, Map<String, String>> apiBody = {
@@ -249,7 +249,7 @@ class UserProvider with ChangeNotifier {
     try {
       Map<String, String> apiHeader = {
         'x-auth-token': '<YOUR TOKEN>',
-        'Content-Type': '<YOUR TYPE>',
+        'Content-Type': 'application/json',
         'API-Key': '<YOUR API KEY>'
       };
       Map<String, String> apiBody = {
@@ -281,7 +281,7 @@ class UserProvider with ChangeNotifier {
     try {
       Map<String, String> apiHeader = {
         'x-auth-token': '<YOUR TOKEN>',
-        'Content-Type': '<YOUR TYPE>',
+        'Content-Type': 'application/json',
         'API-Key': '<YOUR API KEY>'
       };
       Map<String, String> apiBody = {"child_id": stdId};
@@ -304,7 +304,7 @@ class UserProvider with ChangeNotifier {
     try {
       Map<String, String> apiHeader = {
         'x-auth-token': '<YOUR TOKEN>',
-        'Content-Type': '<YOUR TYPE>',
+        'Content-Type': 'application/json',
         'API-Key': '<YOUR API KEY>'
       };
       Map<String, String> apiBody = {
@@ -336,7 +336,7 @@ class UserProvider with ChangeNotifier {
     try {
       Map<String, String> apiHeader = {
         'x-auth-token': '<YOUR TOKEN>',
-        'Content-Type': '<YOUR TYPE>',
+        'Content-Type': 'application/json',
         'API-Key': '<YOUR API KEY>'
       };
       Map<String, Map<String, dynamic>> apiBody = {
@@ -379,7 +379,7 @@ class UserProvider with ChangeNotifier {
     try {
       Map<String, String> apiHeader = {
         'x-auth-token': '<YOUR TOKEN>',
-        'Content-Type': '<YOUR TYPE>',
+        'Content-Type': 'application/json',
         'API-Key': '<YOUR API KEY>'
       };
       Map<String, String> apiBody = {
@@ -408,7 +408,7 @@ class UserProvider with ChangeNotifier {
     try {
       Map<String, String> apiHeader = {
         'x-auth-token': '<YOUR TOKEN>',
-        'Content-Type': '<YOUR TYPE>',
+        'Content-Type': 'application/json',
         'API-Key': '<YOUR API KEY>'
       };
       var request = http.Request('GET', Uri.parse(url));
@@ -428,7 +428,7 @@ class UserProvider with ChangeNotifier {
     try {
       Map<String, String> apiHeader = {
         'x-auth-token': '<YOUR TOKEN>',
-        'Content-Type': '<YOUR TYPE>',
+        'Content-Type': 'application/json',
         'API-Key': '<YOUR API KEY>'
       };
       Map<String, String> apiBody = {"username": email};
@@ -452,7 +452,7 @@ class UserProvider with ChangeNotifier {
     try {
       Map<String, String> apiHeader = {
         'x-auth-token': '<YOUR TOKEN>',
-        'Content-Type': '<YOUR TYPE>',
+        'Content-Type': 'application/json',
         'API-Key': '<YOUR API KEY>'
       };
       Map<String, String> apiBody = {
@@ -480,7 +480,7 @@ class UserProvider with ChangeNotifier {
     try {
       Map<String, String> apiHeader = {
         'x-auth-token': '<YOUR TOKEN>',
-        'Content-Type': '<YOUR TYPE>',
+        'Content-Type': 'application/json',
         'API-Key': '<YOUR API KEY>'
       };
       Map<String, String> apiBody = {"username": email};
@@ -504,7 +504,7 @@ class UserProvider with ChangeNotifier {
     try {
       Map<String, String> apiHeader = {
         'x-auth-token': '<YOUR TOKEN>',
-        'Content-Type': '<YOUR TYPE>',
+        'Content-Type': 'application/json',
         'API-Key': '<YOUR API KEY>'
       };
       Map<String, String> apiBody = {
@@ -535,7 +535,7 @@ class UserProvider with ChangeNotifier {
     try {
       Map<String, String> apiHeader = {
         'x-auth-token': '<YOUR TOKEN>',
-        'Content-Type': '<YOUR TYPE>',
+        'Content-Type': 'application/json',
       };
       Map<String, String> apiBody = {
         "username": email,
@@ -561,7 +561,7 @@ class UserProvider with ChangeNotifier {
     try {
       Map<String, String> apiHeader = {
         'x-auth-token': '<YOUR TOKEN>',
-        'Content-Type': '<YOUR TYPE>',
+        'Content-Type': 'application/json',
       };
       Map<String, String> apiBody = {
         "current_version": version,
@@ -593,7 +593,7 @@ class UserProvider with ChangeNotifier {
     try {
       Map<String, String> apiHeader = {
         'x-auth-token': '<YOUR TOKEN>',
-        'Content-Type': '<YOUR TYPE>',
+        'Content-Type': 'application/json',
       };
       Map<String, String> apiBody = {
         "school_id": schoolId,

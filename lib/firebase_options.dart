@@ -43,5 +43,43 @@ class DefaultFirebaseOptions {
     }
   }
 
-// your setup here
+  static const FirebaseOptions web = FirebaseOptions(
+    apiKey: 'AIzaSyA9HJhN7jm9_rDTV_yfTFjspKsbJ3mlo_g',
+    appId: '1:1019000214736:web:c0fbf9d54dbd98fca6fad5',
+    messagingSenderId: '1019000214736',
+    projectId: 'benchmark-301314',
+    authDomain: 'benchmark-301314.firebaseapp.com',
+    storageBucket: 'benchmark-301314.appspot.com',
+    measurementId: 'G-6D7WNFRNBP',
+  );
+
+  static const FirebaseOptions android = FirebaseOptions(
+    apiKey: 'AIzaSyBQTj8YCNGdaEb4cpTrooZbcdZKFJf77Xg',
+    appId: '1:1019000214736:android:572e29342b4f0d66a6fad5',
+    messagingSenderId: '1019000214736',
+    projectId: 'benchmark-301314',
+    storageBucket: 'benchmark-301314.appspot.com',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyBBbVFdC9pf_Tu0p2eLQwyo3dGtvL1thCA',
+    appId: '1:1019000214736:ios:e6b3e813f31f9d5da6fad5',
+    messagingSenderId: '1019000214736',
+    projectId: 'benchmark-301314',
+    storageBucket: 'benchmark-301314.appspot.com',
+    androidClientId: '1019000214736-63ehvh3q4qtpbgse54c3k3n816o8v5m9.apps.googleusercontent.com',
+    iosClientId: '1019000214736-erj85mnc6sb2ml2iggbotddet4mt2s5j.apps.googleusercontent.com',
+    iosBundleId: 'com.example.schoolDiarySept13',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyBBbVFdC9pf_Tu0p2eLQwyo3dGtvL1thCA',
+    appId: '1:1019000214736:ios:e6b3e813f31f9d5da6fad5',
+    messagingSenderId: '1019000214736',
+    projectId: 'benchmark-301314',
+    storageBucket: 'benchmark-301314.appspot.com',
+    androidClientId: '1019000214736-63ehvh3q4qtpbgse54c3k3n816o8v5m9.apps.googleusercontent.com',
+    iosClientId: '1019000214736-erj85mnc6sb2ml2iggbotddet4mt2s5j.apps.googleusercontent.com',
+    iosBundleId: 'com.example.schoolDiarySept13',
+  );
 }
